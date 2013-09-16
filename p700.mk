@@ -46,7 +46,7 @@ PRODUCT_COPY_FILES += \
 
 # Wifi
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilt/lib//modules/wlan.ko:system/lib/modules/wlan.ko
+    $(LOCAL_PATH)/prebuilt/lib/modules/wlan.ko:system/lib/modules/wlan.ko
 # Misc
 PRODUCT_PACKAGES += \
     libnetcmdiface \
