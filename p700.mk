@@ -54,7 +54,8 @@ PRODUCT_COPY_FILES += \
 # Misc
 PRODUCT_PACKAGES += \
     libnetcmdiface \
-    Torch
+    Torch \
+    Camera
 
 
 PRODUCT_NAME := full_p700
