@@ -46,7 +46,7 @@ PRODUCT_COPY_FILES += \
 
 #audio
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilt/lib/libaudcal.so:system/lib/libaudcal.so \
+    $(LOCAL_PATH)/prebuilt/lib/libaudcal.so:system/lib/libaudcal.so
 
 # Wifi
 PRODUCT_COPY_FILES += \
