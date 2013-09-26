@@ -44,10 +44,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     $(LOCAL_PATH)/prebuilt/lib/libbt-vendor.so:system/lib/libbt-vendor.so
 
-#audio
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilt/lib/libaudcal.so:system/lib/libaudcal.so
-
 # Wifi
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/lib/modules/wlan.ko:system/lib/modules/wlan.ko
