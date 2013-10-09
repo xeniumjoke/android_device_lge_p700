@@ -9,8 +9,7 @@ BOARD_KERNEL_CMDLINE := androidboot.hardware=u0 lge.signed_image=false
 
 #kernel
 TARGET_PREBUILT_KERNEL := device/lge/p700/kernel
-TARGET_KERNEL_SOURCE := kernel/lge/msm7227a-kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_u0_non_nfc_defconfig
+TARGET_KERNEL_CONFIG := cyanogenmod_u0_defconfig
 ARM_EABI_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7/bin
 TARGET_USE_O3 := true
 
@@ -21,8 +20,5 @@ LGE_PROJECT := l
 
 #bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/p700/bluetooth
-
-#gmaps
-BOARD_USE_LEGACY_SENSORS_FUSION := false
 
 
