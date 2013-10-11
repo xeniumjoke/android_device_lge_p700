@@ -87,3 +87,6 @@ persist.sys.purgeable_assets=1
 # Battery Tweaks
 pm.sleep_mode=1
 ro.ril.disable.power.collapse=1
+
+lpa.decode=false
+lpa.use-stagefright=false
