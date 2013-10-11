@@ -10,7 +10,7 @@ BOARD_KERNEL_CMDLINE := androidboot.hardware=u0 lge.signed_image=false
 #kernel
 TARGET_PREBUILT_KERNEL := device/lge/p700/kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_u0_defconfig
-ARM_EABI_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7/bin
+ARM_EABI_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8/bin
 TARGET_USE_O3 := true
 
 ## We need this for the flipped screen
