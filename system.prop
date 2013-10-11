@@ -4,3 +4,86 @@
 ro.sf.hwrotation=180
 
 ro.sf.lcd_density=240
+
+# Qualcomm Display Settings (Qualcomm devices ONLY!!)
+com.qc.hardware=1
+debug.qc.hardware=true
+debug.qctwa.preservebuf=1
+debug.qctwa.statusbar=1
+
+# Rapid Boot Technology 1.1 (Reduces bootup time)
+persist.sys.shutdown.mode=hibernate
+ro.config.hw_fast_dormancy=1
+ro.config.hw_quickpoweron=true
+
+# Rendering Tweaks
+debug.composition.type=c2d
+debug.egl.hw=1
+debug.enabletr=true
+debug.overlayui.enable=1
+debug.qctwa.preservebuf=1
+debug.performance.tuning=1
+debug.sf.hw=1
+dev.pm.dyn_samplingrate=1
+hw3d.force=1
+ro.config.disable.hw_accel=false
+ro.fb.mode=1
+ro.sf.compbypass.enable=0
+ro.vold.umsdirtyratio=20
+persist.sys.composition.type=c2d
+persist.sys.ui.hw=1
+video.accelerate.hw=1
+
+# Sensor Sleep Control
+ro.ril.sensor.sleep.control=1
+
+# Smoothens UI
+persist.service.lgospd.enable=0
+persist.service.pcsync.enable=0
+
+# Enable Qualcomm tile rendering (Hardware Rendering)
+debug.enabletr=1
+persist.sys.composition.type=gpu 
+
+# enable harware egl profile 
+debug.egl.profiler=1
+
+# FPs Booster
+persist.sys.NV_FPSLIMIT=60
+persist.sys.NV_POWERMODE=1
+persist.sys.NV_PROFVER=15
+persist.sys.NV_STEREOCTRL=0
+persist.sys.NV_STEREOSEPCHG=0
+persist.sys.NV_STEREOSEP=20
+
+# Graphic Optimization
+debug.gr.numframebuffers=3
+ro.min_pointer_dur=1
+
+# Hardware 2D & 3D Rendering
+hw3d.force=1
+hw2d.force=1
+
+# Graphic Tweaks
+ro.product.gpu.driver=1
+debug.gr.swapinterval=0
+
+# Better scrolling responsiveness
+windowsmgr.max_events_per_sec=90
+ro.max.fling_velocity=12000 
+ro.min.fling_velocity=8000
+
+# Better Touch Responsiveness
+touch.presure.scale=0.001
+
+# 3d performance 
+persist.android.strictmode=0 
+ro.min_pointer_dur=1 
+ro.secure=0
+
+# Ram Tweaks
+persist.sys.purgeable_assets=1
+
+# Battery Tweaks
+pm.sleep_mode=1
+ro.ril.disable.power.collapse=1
