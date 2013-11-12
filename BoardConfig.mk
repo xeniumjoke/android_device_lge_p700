@@ -13,9 +13,6 @@ TARGET_KERNEL_CONFIG := cyanogenmod_u0_defconfig
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.8
 TARGET_USE_O3 := true
 
-## We need this for the flipped screen
-BOARD_CUSTOM_GRAPHICS := ../../../device/lge/p700/recovery/graphics.c
-
 LGE_PROJECT := l
 
 #bluetooth
