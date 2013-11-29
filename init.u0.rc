@@ -21,6 +21,10 @@ on boot
     chown system system /sys/class/input/input2/softreset
     chown system system /sys/bus/i2c/drivers/proximity_gp2ap/6-0044/enable
     chmod 0660 /sys/bus/i2c/drivers/proximity_gp2ap/6-0044/enable
+## ksm values
+    write /sys/kernel/mm/ksm/pages_to_scan 100
+    write /sys/kernel/mm/ksm/sleep_millisecs 500
+    write /sys/kernel/mm/ksm/run 1
 
 ## chargermode will crash badly unless USB is configured
 on property:init.svc.charger=running
