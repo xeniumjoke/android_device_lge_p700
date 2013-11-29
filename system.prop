@@ -90,5 +90,3 @@ ro.ril.disable.power.collapse=1
 
 lpa.decode=false
 lpa.use-stagefright=false
-
-ro.config.low_ram=true
