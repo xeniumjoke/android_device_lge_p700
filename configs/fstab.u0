@@ -5,3 +5,5 @@
 /dev/block/mmcblk0p18                      /persist-lg      ext4          nosuid,nodev,barrier=1,data=ordered,nodelalloc wait
 /devices/platform/msm_sdcc.1/mmc_host      /storage/sdcard1 vfat defaults wait,voldmanaged=sdcard1:auto
 /devices/platform/msm_sdcc.3/mmc_host      auto vfat defaults wait,voldmanaged=sdcart0:auto
+
+/dev/block/zram0                         none               swap    defaults                                zramsize=67108864
