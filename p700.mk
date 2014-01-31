@@ -35,7 +35,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libnetcmdiface \
     Torch \
-    Camera
+    Camera \
+    FM2 \
+    libqcomfm_jni \
+    qcom.fmradio
 
 
 PRODUCT_NAME := full_p700

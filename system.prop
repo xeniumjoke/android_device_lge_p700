@@ -92,3 +92,11 @@ lpa.decode=false
 lpa.use-stagefright=false
 
 debug.camcorder.disablemeta=1
+
+dalvik.vm.verify-bytecode=false
+dalvik.vm.dexopt-flags=v=n,o=v
+
+# FM Radio
+ro.fm.analogpath.supported=true
+ro.fm.transmitter=false
+ro.fm.mulinst.recording.support=false

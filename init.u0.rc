@@ -28,6 +28,13 @@ on boot
     write /proc/sys/vm/page-cluster 0
     write /proc/sys/vm/swappiness 60
 
+service fm_dl /system/bin/sh /system/etc/init.qcom.fm.sh
+    class late_start
+    user root
+    group system qcom_oncrpc
+    disabled
+    oneshot
+
 ## Power profiles (CM QS tile)
 
 # Powersave
